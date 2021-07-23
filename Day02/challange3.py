@@ -1,5 +1,6 @@
 # asumsi umur maks adalah 90 dan 365 hari, 52 minggu, 12 bulan
 # semua yang dimasukkan ke input bertipe string, jd harus dikonversi dulu
+# semua yang dioperasikan dengan float akan menjadi float
 age = int(input("Berapa umurmu sekarang? "))
 
 current_month = (90 - age) * 12
