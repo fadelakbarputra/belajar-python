@@ -8,4 +8,3 @@ current_week = (90 - age) * 52
 current_day = (90 - age) * 365
 
 print(f"You have {current_day} days left, {current_week} weeks left, and {current_month} month left")
-
