@@ -1,5 +1,5 @@
 # 120; 12, 18
-
+print("Selamat datang di Wahana Roller Coster")
 tinggi = int(input("Berapa tinggimu? "))
 bill = 0
 
@@ -21,3 +21,4 @@ if tinggi > 120:
     print(f"Anda harus membayar sebesar ${bill}")
 else:
     print("Kamu tidak boleh naik!")
+print("Terima kasih! banyak")
