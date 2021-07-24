@@ -12,9 +12,13 @@ if tinggi > 120:
     elif umur <= 18: #18 < umur < 12
         bill = 7
         print(f"Remaja membayar ${bill}")
-    else: # umur > 18
-        bill = 12
-        print(f"Dewasa membayar ${bill}")
+    elif umur > 18: # umur > 18
+        if umur >= 45 and umur <= 55:
+            bill = 0
+            print(f"Lansia embayar {bill}")
+        else:
+            bill = 12
+            print(f"Dewasa membayar ${bill}")
     photo = input("Mau foto atau tidak Y or N? ")
     if photo == "Y":
         bill += 3
